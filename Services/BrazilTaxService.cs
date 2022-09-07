@@ -1,6 +1,6 @@
 ﻿namespace ex01_no_interfaces.Services
 {
-    internal class BrazilTaxService
+    internal class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
